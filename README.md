@@ -59,7 +59,6 @@ Welcome to **UrbanFood** - a modern e-commerce platform that connects urban farm
 
 As database developers, our primary goal was to design a robust, scalable system to manage the entire e-commerce workflow. We implemented a **hybrid database approach**:
 
-mermaid
 graph TD
     A[Client Request] --> B{Router}
     B -->|Structured Data| C[Oracle Database]
