@@ -167,14 +167,7 @@ erDiagram
 <summary>💡 Technology Stack Details</summary>
 <br>
 
-mermaid
-graph TD
-    A[Front-End] -->|React| B[UI Components]
-    A -->|API Calls| C[Back-End]
-    C -->|Java| D[Business Logic]
-    D -->|Query| E[Data Layer]
-    E -->|PL/SQL| F[Oracle DB]
-    E -->|Queries| G[NoSQL DB]
+
 
 
 | Technology | Purpose | Features Used |
