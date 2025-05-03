@@ -65,17 +65,6 @@ As database developers, our primary goal was to design a robust, scalable system
 - **Oracle Database**: For structured transactional data, ensuring data integrity and business logic encapsulation through PL/SQL
 - **MongoDB**: For unstructured content like product reviews and customer feedback
 
-- ```mermaid
-graph TD
-    A[Client Request] --> B{Router}
-    B -->|Structured Data| C[Oracle Database]
-    B -->|Unstructured Data| D[NoSQL Database]
-    C --> E[PL/SQL Procedures]
-    D --> F[Flexible Schema]
-    E --> G[Business Logic]
-    F --> G
-    G --> H[Response]
-    ![Flowchart](path/to/your/flowchart-image.png)
 
 
 
