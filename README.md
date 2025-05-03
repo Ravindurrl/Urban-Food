@@ -59,15 +59,7 @@ Welcome to **UrbanFood** - a modern e-commerce platform that connects urban farm
 
 As database developers, our primary goal was to design a robust, scalable system to manage the entire e-commerce workflow. We implemented a **hybrid database approach**:
 
-graph TD
-    A[Client Request] --> B{Router}
-    B -->|Structured Data| C[Oracle Database]
-    B -->|Unstructured Data| D[NoSQL Database]
-    C --> E[PL/SQL Procedures]
-    D --> F[Flexible Schema]
-    E --> G[Business Logic]
-    F --> G
-    G --> H[Response]
+
 
 
 - **Oracle Database**: For structured transactional data, ensuring data integrity and business logic encapsulation through PL/SQL
