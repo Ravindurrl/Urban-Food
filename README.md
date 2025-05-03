@@ -133,15 +133,7 @@ As database developers, our primary goal was to design a robust, scalable system
   </tr>
 </table>
 
-### 📊 Entity Relationship Diagram
 
-mermaid
-erDiagram
-    SUPPLIER ||--o{ PRODUCT : supplies
-    USERS ||--o{ ORDERS : places
-    PRODUCT ||--o{ ORDERS : contains
-    ORDERS ||--|| PAYMENT : has
-    ORDERS ||--|| DELIVERY : requires
 
 
 ## 💻 Technologies Used
