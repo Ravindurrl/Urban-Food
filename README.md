@@ -75,6 +75,8 @@ graph TD
     E --> G[Business Logic]
     F --> G
     G --> H[Response]
+    ![Flowchart](path/to/your/flowchart-image.png)
+
 
 
 ## 🗄️ Database Components
